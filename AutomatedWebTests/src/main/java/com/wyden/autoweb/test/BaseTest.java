@@ -1,4 +1,4 @@
-package com.wyden.test.AutomatedWeb;
+package com.wyden.autoweb.test;
 
 import java.util.concurrent.TimeUnit;
 

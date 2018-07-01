@@ -1,4 +1,4 @@
-package com.wyden.AutomatedWeb;
+package com.wyden.autoweb;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

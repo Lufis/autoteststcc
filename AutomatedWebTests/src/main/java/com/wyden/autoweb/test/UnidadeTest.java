@@ -1,10 +1,10 @@
-package com.wyden.test.AutomatedWeb;
+package com.wyden.autoweb.test;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.wyden.pageobject.AutomatedWeb.MenuPageObject;
-import com.wyden.pageobject.AutomatedWeb.UnidadePageObject;
+import com.wyden.pageobject.autoweb.MenuPageObject;
+import com.wyden.pageobject.autoweb.UnidadePageObject;
 
 public class UnidadeTest extends BaseTest {
 

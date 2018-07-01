@@ -1,4 +1,4 @@
-package com.wyden.pageobject.AutomatedWeb;
+package com.wyden.pageobject.autoweb;
 
 import java.util.ArrayList;
 import java.util.List;

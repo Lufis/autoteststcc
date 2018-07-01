@@ -1,4 +1,4 @@
-package com.wyden.pageobject.AutomatedWeb;
+package com.wyden.pageobject.autoweb;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
