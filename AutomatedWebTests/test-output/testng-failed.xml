@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.wyden.test.AutomatedWeb.UnidadeTest">
+        <methods>
+          <include name="cadastrarEValidarUnidadeInativaTest"/>
+          <include name="finalizarWebDriver"/>
+          <include name="acessarMenuUnidadeTest"/>
+          <include name="removerEValidarUnidadeTest"/>
+          <include name="instanciarWebDriver"/>
+          <include name="editarEValidarUnidadeTest"/>
+        </methods>
+      </class> <!-- com.wyden.test.AutomatedWeb.UnidadeTest -->
+      <class name="com.wyden.test.AutomatedWeb.PerfilTest">
+        <methods>
+          <include name="finalizarWebDriver"/>
+          <include name="acessarMenuPerfilTest"/>
+          <include name="removerEValidarPerfilTest"/>
+          <include name="cadastrarEValidarPerfilInativoTest"/>
+          <include name="instanciarWebDriver"/>
+          <include name="editarEValidarPerfilTest"/>
+        </methods>
+      </class> <!-- com.wyden.test.AutomatedWeb.PerfilTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
