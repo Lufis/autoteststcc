@@ -1,6 +1,7 @@
 com\wyden\autoweb\test\BaseTest.class
 com\wyden\autoweb\test\PerfilTest.class
 com\wyden\pageobject\autoweb\UnidadePageObject.class
+com\wyden\pageobject\autoweb\BasePageObject.class
 com\wyden\pageobject\autoweb\MenuPageObject.class
 com\wyden\autoweb\test\UnidadeTest.class
 com\wyden\pageobject\autoweb\UsuarioPageObject.class

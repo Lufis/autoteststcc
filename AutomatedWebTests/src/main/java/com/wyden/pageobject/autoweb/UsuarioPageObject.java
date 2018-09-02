@@ -1,5 +1,6 @@
 package com.wyden.pageobject.autoweb;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class UsuarioPageObject {
+public class UsuarioPageObject extends BasePageObject {
 
 	private WebDriver driver;
 	private static final String MENSAGEM_CRIACAO = "div.alert > span";
@@ -71,9 +72,21 @@ public class UsuarioPageObject {
 		dropdown = new Select(driver.findElement(By.id(SITUACAO)));
 		dropdown.selectByVisibleText(situacao);
 		element = driver.findElement(By.cssSelector(BT_SALVAR_UNIDADE));
+		try {
+			printEvidence("cadastrarUsuario", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		element.click();
 		logger.info("Salvando...");
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemCadastroUsuario", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}	
 	
 	public void editarUsuario(String nomeUsuario, String novoNomeUsuario, String novaSituacao) {
@@ -92,9 +105,21 @@ public class UsuarioPageObject {
 				Select dropdown = new Select(driver.findElement(By.id(SITUACAO)));
 				dropdown.selectByVisibleText(novaSituacao);
 				element = driver.findElement(By.cssSelector(BT_SALVAR_UNIDADE));
+				try {
+					printEvidence("editarUsuario", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				element.click();
 				logger.info("Salvando...");
 				aguardarMensagem();
+				try {
+					printEvidence("mensagemEdiçãoUsuario", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				break;
 			}
 
@@ -117,6 +142,12 @@ public class UsuarioPageObject {
 		Alert popup = driver.switchTo().alert();
 		popup.accept();
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemUsuarioRemovido", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 	

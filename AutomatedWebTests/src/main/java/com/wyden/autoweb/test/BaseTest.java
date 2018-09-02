@@ -10,6 +10,9 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
 public class BaseTest {
 	private WebDriver driver;
 
@@ -38,6 +41,8 @@ public class BaseTest {
 	public void finalizarWebDriver() {
 		driver.quit();
 	}
+	
+	
 
 	public WebDriver getDriver() {
 		return driver;
