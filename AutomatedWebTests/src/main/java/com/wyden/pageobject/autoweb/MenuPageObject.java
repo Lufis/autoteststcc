@@ -1,11 +1,13 @@
 package com.wyden.pageobject.autoweb;
 
+import java.io.IOException;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class MenuPageObject {
+public class MenuPageObject extends BasePageObject {
 	final static Logger logger = Logger.getLogger(UnidadePageObject.class);
 	private static final String MENU_GERENC_UNIDADE = "gunidade";
 	private static final String MENU_GERENC_PERFIL = "gperfil";
@@ -23,6 +25,12 @@ public class MenuPageObject {
 		logger.info("Acessando o menu [Gerenciamento de Unidade]...");
 		WebElement element = driver.findElement(By.id(MENU_GERENC_UNIDADE));
 		element.click();
+		try {
+			printEvidence("menuUnidades", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void menuPerfil() {
@@ -30,12 +38,24 @@ public class MenuPageObject {
 
 		WebElement element = driver.findElement(By.id(MENU_GERENC_PERFIL));
 		element.click();
+		try {
+			printEvidence("menuPerfil", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void menuUsuario() {
 
 		logger.info("Acessando o menu [Geranciamento de Usuario]...");
 		WebElement element = driver.findElement(By.id(MENU_GERENC_USUARIO));
+		try {
+			printEvidence("menuUsuario", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		element.click();
 	}
 

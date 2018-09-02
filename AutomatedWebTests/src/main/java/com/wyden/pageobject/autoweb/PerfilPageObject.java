@@ -1,5 +1,6 @@
 package com.wyden.pageobject.autoweb;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class PerfilPageObject {
+public class PerfilPageObject extends BasePageObject {
 
 	private WebDriver driver;
 	private static final String BT_CADASTRO_UNIDADE = "#btn-cadastro-perfil > span";
@@ -38,6 +39,7 @@ public class PerfilPageObject {
 		if (wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(MENSAGEM_CRIACAO))) != null) {
 			WebElement alerta = driver.findElement(By.cssSelector(MENSAGEM_CRIACAO));
 			logger.info(alerta.getText().toString());
+
 		} else {
 			logger.info("Nenhuma mensagem exibida!");
 		}
@@ -54,9 +56,21 @@ public class PerfilPageObject {
 		dropdown = new Select(driver.findElement(By.id(UNIDADE)));
 		dropdown.selectByVisibleText(unidade);
 		element = driver.findElement(By.cssSelector(BT_SALVAR_PERFIL));
+		try {
+			printEvidence("cadastrarPerfil", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		element.click();
 		logger.info("Salvando...");
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemCadastroPerfil", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void editarPerfil(String nomePerfil, String novoNomePerfil, String novaSituacao) {
@@ -74,10 +88,23 @@ public class PerfilPageObject {
 				element.sendKeys(novoNomePerfil);
 				Select dropdown = new Select(driver.findElement(By.id(SITUACAO)));
 				dropdown.selectByVisibleText(novaSituacao);
+				try {
+					printEvidence("editarPerfil", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				element = driver.findElement(By.cssSelector(BT_SALVAR_PERFIL));
 				element.click();
+				
 				logger.info("Salvando...");
 				aguardarMensagem();
+				try {
+					printEvidence("mensagemEdiçãoPerfil", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				break;
 			}
 
@@ -135,9 +162,17 @@ public class PerfilPageObject {
 			}
 
 		}
+	
 		Alert popup = driver.switchTo().alert();
+	
 		popup.accept();
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemPerfilRemovido", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 }

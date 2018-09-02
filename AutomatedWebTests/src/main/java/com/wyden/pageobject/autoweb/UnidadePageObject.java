@@ -1,5 +1,6 @@
 package com.wyden.pageobject.autoweb;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class UnidadePageObject {
+public class UnidadePageObject extends BasePageObject {
 
 	private WebDriver driver;
 	private static final String BT_CADASTRO_UNIDADE = "#btn-cadastro-unidade > span";
@@ -51,9 +52,21 @@ public class UnidadePageObject {
 		Select dropdown = new Select(driver.findElement(By.id(SITUACAO)));
 		dropdown.selectByVisibleText(situacao);
 		element = driver.findElement(By.cssSelector(BT_SALVAR_UNIDADE));
+		try {
+			printEvidence("cadastrarUnidade", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		element.click();
 		logger.info("Salvando...");
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemCadastroUnidade", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public boolean validarUnidade(String nomeUnidade, String situacao) {
@@ -110,9 +123,21 @@ public class UnidadePageObject {
 				Select dropdown = new Select(driver.findElement(By.id(SITUACAO)));
 				dropdown.selectByVisibleText(novaSituacao);
 				element = driver.findElement(By.cssSelector(BT_SALVAR_UNIDADE));
+				try {
+					printEvidence("editarUnidade", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				element.click();
 				logger.info("Salvando...");
 				aguardarMensagem();
+				try {
+					printEvidence("mensagemEdiçãoUnidade", driver);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				break;
 			}
 
@@ -135,6 +160,12 @@ public class UnidadePageObject {
 		Alert popup = driver.switchTo().alert();
 		popup.accept();
 		aguardarMensagem();
+		try {
+			printEvidence("mensagemUnidadeRemovida", driver);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 

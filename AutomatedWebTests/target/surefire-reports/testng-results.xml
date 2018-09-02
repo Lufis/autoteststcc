@@ -2,108 +2,108 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="78541" started-at="2018-07-01T22:47:22Z" finished-at="2018-07-01T22:48:41Z">
+  <suite name="Surefire suite" duration-ms="46305" started-at="2018-09-02T02:29:32Z" finished-at="2018-09-02T02:30:18Z">
     <groups>
       <group name="unidadeTest">
-        <method signature="UnidadeTest.acessarMenuUnidadeTest()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="acessarMenuUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
-        <method signature="UnidadeTest.cadastrarEValidarUnidadeInativaTest()[pri:1, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="cadastrarEValidarUnidadeInativaTest" class="com.wyden.autoweb.test.UnidadeTest"/>
-        <method signature="UnidadeTest.editarEValidarUnidadeTest()[pri:2, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="editarEValidarUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
+        <method signature="UnidadeTest.acessarMenuUnidadeTest()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="acessarMenuUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
+        <method signature="UnidadeTest.cadastrarEValidarUnidadeInativaTest()[pri:1, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="cadastrarEValidarUnidadeInativaTest" class="com.wyden.autoweb.test.UnidadeTest"/>
+        <method signature="UnidadeTest.editarEValidarUnidadeTest()[pri:2, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="editarEValidarUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
       </group> <!-- unidadeTest -->
       <group name="usuarioTest">
-        <method signature="UsuarioTest.acessarMenuUsuarioTest()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="acessarMenuUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
-        <method signature="UsuarioTest.cadastrarEValidarUsuarioInativoTest()[pri:1, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="cadastrarEValidarUsuarioInativoTest" class="com.wyden.autoweb.test.UsuarioTest"/>
-        <method signature="UsuarioTest.editarEValidarUsuarioTest()[pri:2, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="editarEValidarUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
+        <method signature="UsuarioTest.acessarMenuUsuarioTest()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="acessarMenuUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
+        <method signature="UsuarioTest.cadastrarEValidarUsuarioInativoTest()[pri:1, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="cadastrarEValidarUsuarioInativoTest" class="com.wyden.autoweb.test.UsuarioTest"/>
+        <method signature="UsuarioTest.editarEValidarUsuarioTest()[pri:2, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="editarEValidarUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
       </group> <!-- usuarioTest -->
       <group name="perfilTest">
-        <method signature="PerfilTest.acessarMenuPerfilTest()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="acessarMenuPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
-        <method signature="PerfilTest.cadastrarEValidarPerfilInativoTest()[pri:1, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="cadastrarEValidarPerfilInativoTest" class="com.wyden.autoweb.test.PerfilTest"/>
-        <method signature="PerfilTest.editarEValidarPerfilTest()[pri:2, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="editarEValidarPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
+        <method signature="PerfilTest.acessarMenuPerfilTest()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="acessarMenuPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
+        <method signature="PerfilTest.cadastrarEValidarPerfilInativoTest()[pri:1, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="cadastrarEValidarPerfilInativoTest" class="com.wyden.autoweb.test.PerfilTest"/>
+        <method signature="PerfilTest.editarEValidarPerfilTest()[pri:2, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="editarEValidarPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
       </group> <!-- perfilTest -->
       <group name="removerPerfilTest">
-        <method signature="PerfilTest.removerEValidarPerfilTest()[pri:3, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="removerEValidarPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
+        <method signature="PerfilTest.removerEValidarPerfilTest()[pri:3, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="removerEValidarPerfilTest" class="com.wyden.autoweb.test.PerfilTest"/>
       </group> <!-- removerPerfilTest -->
       <group name="removerUnidadeTest">
-        <method signature="UnidadeTest.removerEValidarUnidadeTest()[pri:3, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="removerEValidarUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
+        <method signature="UnidadeTest.removerEValidarUnidadeTest()[pri:3, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="removerEValidarUnidadeTest" class="com.wyden.autoweb.test.UnidadeTest"/>
       </group> <!-- removerUnidadeTest -->
       <group name="removerUsuarioTest">
-        <method signature="UsuarioTest.removerEValidarUsuarioTest()[pri:3, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="removerEValidarUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
+        <method signature="UsuarioTest.removerEValidarUsuarioTest()[pri:3, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="removerEValidarUsuarioTest" class="com.wyden.autoweb.test.UsuarioTest"/>
       </group> <!-- removerUsuarioTest -->
     </groups>
-    <test name="Surefire test" duration-ms="78541" started-at="2018-07-01T22:47:22Z" finished-at="2018-07-01T22:48:41Z">
+    <test name="Surefire test" duration-ms="46305" started-at="2018-09-02T02:29:32Z" finished-at="2018-09-02T02:30:18Z">
       <class name="com.wyden.autoweb.test.UnidadeTest">
-        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="instanciarWebDriver" is-config="true" duration-ms="9286" started-at="2018-07-01T22:47:22Z" finished-at="2018-07-01T22:47:32Z">
+        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="instanciarWebDriver" is-config="true" duration-ms="4254" started-at="2018-09-02T02:29:32Z" finished-at="2018-09-02T02:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instanciarWebDriver -->
-        <test-method status="PASS" signature="acessarMenuUnidadeTest()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="acessarMenuUnidadeTest" duration-ms="537" started-at="2018-07-01T22:47:32Z" finished-at="2018-07-01T22:47:32Z">
+        <test-method status="PASS" signature="acessarMenuUnidadeTest()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="acessarMenuUnidadeTest" duration-ms="1552" started-at="2018-09-02T02:29:36Z" finished-at="2018-09-02T02:29:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acessarMenuUnidadeTest -->
-        <test-method status="PASS" signature="cadastrarEValidarUnidadeInativaTest()[pri:1, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="cadastrarEValidarUnidadeInativaTest" duration-ms="1207" started-at="2018-07-01T22:47:32Z" finished-at="2018-07-01T22:47:33Z">
+        <test-method status="PASS" signature="cadastrarEValidarUnidadeInativaTest()[pri:1, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="cadastrarEValidarUnidadeInativaTest" duration-ms="2316" started-at="2018-09-02T02:29:38Z" finished-at="2018-09-02T02:29:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cadastrarEValidarUnidadeInativaTest -->
-        <test-method status="PASS" signature="editarEValidarUnidadeTest()[pri:2, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="editarEValidarUnidadeTest" duration-ms="1082" started-at="2018-07-01T22:47:33Z" finished-at="2018-07-01T22:47:35Z">
+        <test-method status="PASS" signature="editarEValidarUnidadeTest()[pri:2, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="editarEValidarUnidadeTest" duration-ms="2310" started-at="2018-09-02T02:29:40Z" finished-at="2018-09-02T02:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editarEValidarUnidadeTest -->
-        <test-method status="PASS" signature="removerEValidarUnidadeTest()[pri:3, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="removerEValidarUnidadeTest" duration-ms="1705" depends-on-groups="removerPerfilTest" started-at="2018-07-01T22:48:39Z" finished-at="2018-07-01T22:48:40Z">
+        <test-method status="PASS" signature="removerEValidarUnidadeTest()[pri:3, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="removerEValidarUnidadeTest" duration-ms="2180" depends-on-groups="removerPerfilTest" started-at="2018-09-02T02:30:15Z" finished-at="2018-09-02T02:30:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removerEValidarUnidadeTest -->
-        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@6a2bcfcb]" name="finalizarWebDriver" is-config="true" duration-ms="624" started-at="2018-07-01T22:48:40Z" finished-at="2018-07-01T22:48:41Z">
+        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UnidadeTest@548b7f67]" name="finalizarWebDriver" is-config="true" duration-ms="661" started-at="2018-09-02T02:30:18Z" finished-at="2018-09-02T02:30:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizarWebDriver -->
       </class> <!-- com.wyden.autoweb.test.UnidadeTest -->
       <class name="com.wyden.autoweb.test.UsuarioTest">
-        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="instanciarWebDriver" is-config="true" duration-ms="12218" started-at="2018-07-01T22:47:45Z" finished-at="2018-07-01T22:47:58Z">
+        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="instanciarWebDriver" is-config="true" duration-ms="7350" started-at="2018-09-02T02:29:54Z" finished-at="2018-09-02T02:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instanciarWebDriver -->
-        <test-method status="PASS" signature="acessarMenuUsuarioTest()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="acessarMenuUsuarioTest" duration-ms="5857" depends-on-groups="perfilTest" started-at="2018-07-01T22:47:58Z" finished-at="2018-07-01T22:48:03Z">
+        <test-method status="PASS" signature="acessarMenuUsuarioTest()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="acessarMenuUsuarioTest" duration-ms="1665" depends-on-groups="perfilTest" started-at="2018-09-02T02:30:02Z" finished-at="2018-09-02T02:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acessarMenuUsuarioTest -->
-        <test-method status="PASS" signature="cadastrarEValidarUsuarioInativoTest()[pri:1, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="cadastrarEValidarUsuarioInativoTest" duration-ms="14289" depends-on-groups="perfilTest" started-at="2018-07-01T22:48:03Z" finished-at="2018-07-01T22:48:18Z">
+        <test-method status="PASS" signature="cadastrarEValidarUsuarioInativoTest()[pri:1, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="cadastrarEValidarUsuarioInativoTest" duration-ms="3895" depends-on-groups="perfilTest" started-at="2018-09-02T02:30:03Z" finished-at="2018-09-02T02:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cadastrarEValidarUsuarioInativoTest -->
-        <test-method status="PASS" signature="editarEValidarUsuarioTest()[pri:2, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="editarEValidarUsuarioTest" duration-ms="11340" depends-on-groups="perfilTest" started-at="2018-07-01T22:48:18Z" finished-at="2018-07-01T22:48:29Z">
+        <test-method status="PASS" signature="editarEValidarUsuarioTest()[pri:2, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="editarEValidarUsuarioTest" duration-ms="2753" depends-on-groups="perfilTest" started-at="2018-09-02T02:30:07Z" finished-at="2018-09-02T02:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editarEValidarUsuarioTest -->
-        <test-method status="PASS" signature="removerEValidarUsuarioTest()[pri:3, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="removerEValidarUsuarioTest" duration-ms="6693" depends-on-groups="usuarioTest" started-at="2018-07-01T22:48:31Z" finished-at="2018-07-01T22:48:38Z">
+        <test-method status="PASS" signature="removerEValidarUsuarioTest()[pri:3, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="removerEValidarUsuarioTest" duration-ms="2017" depends-on-groups="usuarioTest" started-at="2018-09-02T02:30:13Z" finished-at="2018-09-02T02:30:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removerEValidarUsuarioTest -->
-        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@4de8b406]" name="finalizarWebDriver" is-config="true" duration-ms="677" started-at="2018-07-01T22:48:38Z" finished-at="2018-07-01T22:48:39Z">
+        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.UsuarioTest@7ac7a4e4]" name="finalizarWebDriver" is-config="true" duration-ms="698" started-at="2018-09-02T02:30:15Z" finished-at="2018-09-02T02:30:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizarWebDriver -->
       </class> <!-- com.wyden.autoweb.test.UsuarioTest -->
       <class name="com.wyden.autoweb.test.PerfilTest">
-        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="instanciarWebDriver" is-config="true" duration-ms="6685" started-at="2018-07-01T22:47:35Z" finished-at="2018-07-01T22:47:41Z">
+        <test-method status="PASS" signature="instanciarWebDriver()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="instanciarWebDriver" is-config="true" duration-ms="4765" started-at="2018-09-02T02:29:42Z" finished-at="2018-09-02T02:29:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instanciarWebDriver -->
-        <test-method status="PASS" signature="acessarMenuPerfilTest()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="acessarMenuPerfilTest" duration-ms="719" depends-on-groups="unidadeTest" started-at="2018-07-01T22:47:41Z" finished-at="2018-07-01T22:47:42Z">
+        <test-method status="PASS" signature="acessarMenuPerfilTest()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="acessarMenuPerfilTest" duration-ms="974" depends-on-groups="unidadeTest" started-at="2018-09-02T02:29:47Z" finished-at="2018-09-02T02:29:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acessarMenuPerfilTest -->
-        <test-method status="PASS" signature="cadastrarEValidarPerfilInativoTest()[pri:1, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="cadastrarEValidarPerfilInativoTest" duration-ms="1787" depends-on-groups="unidadeTest" started-at="2018-07-01T22:47:42Z" finished-at="2018-07-01T22:47:44Z">
+        <test-method status="PASS" signature="cadastrarEValidarPerfilInativoTest()[pri:1, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="cadastrarEValidarPerfilInativoTest" duration-ms="2709" depends-on-groups="unidadeTest" started-at="2018-09-02T02:29:48Z" finished-at="2018-09-02T02:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cadastrarEValidarPerfilInativoTest -->
-        <test-method status="PASS" signature="editarEValidarPerfilTest()[pri:2, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="editarEValidarPerfilTest" duration-ms="1560" depends-on-groups="unidadeTest" started-at="2018-07-01T22:47:44Z" finished-at="2018-07-01T22:47:45Z">
+        <test-method status="PASS" signature="editarEValidarPerfilTest()[pri:2, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="editarEValidarPerfilTest" duration-ms="3478" depends-on-groups="unidadeTest" started-at="2018-09-02T02:29:51Z" finished-at="2018-09-02T02:29:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editarEValidarPerfilTest -->
-        <test-method status="PASS" signature="removerEValidarPerfilTest()[pri:3, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="removerEValidarPerfilTest" duration-ms="1596" depends-on-groups="perfilTest" started-at="2018-07-01T22:48:29Z" finished-at="2018-07-01T22:48:31Z">
+        <test-method status="PASS" signature="removerEValidarPerfilTest()[pri:3, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="removerEValidarPerfilTest" duration-ms="2052" depends-on-groups="perfilTest" started-at="2018-09-02T02:30:10Z" finished-at="2018-09-02T02:30:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removerEValidarPerfilTest -->
-        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@1efbd816]" name="finalizarWebDriver" is-config="true" duration-ms="641" started-at="2018-07-01T22:48:31Z" finished-at="2018-07-01T22:48:31Z">
+        <test-method status="PASS" signature="finalizarWebDriver()[pri:0, instance:com.wyden.autoweb.test.PerfilTest@6d8a00e3]" name="finalizarWebDriver" is-config="true" duration-ms="628" started-at="2018-09-02T02:30:12Z" finished-at="2018-09-02T02:30:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finalizarWebDriver -->
